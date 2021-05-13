@@ -1,0 +1,46 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Monster Mayhem</title>
+<html>
+<!-- The canvas -->
+<h1>Welcome To Monster Mayham Game</h1>
+
+<p>To restart, click<a href="monsterMayhem.html"> here</a></p>
+
+<canvas width="950" height="512"></canvas>
+
+<br>
+<br>
+
+
+
+
+<!-- The game code -->
+<script src="requestAnimationFramePolyfill.js"></script>
+<script src="../src/objects.js"></script>
+<script src="../src/collision.js"></script>
+<script src="../src/monsterMayhem.js"></script>
+
+<style>
+html{
+    position: center;
+    background-color: rgb(29, 180, 180);
+}
+h1{
+    text-align: center;
+}
+
+canvas{
+    position:fixed;
+    align-items: center;
+    border: 10px solid black;
+    justify-content: center;
+    background-color: white;
+    left: 65px;
+}
+
+p{
+    text-align: center;
+}
+</style>
+</html>
